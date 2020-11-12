@@ -1,0 +1,1 @@
+//let url = "http//raspberrypi.local:30010/getdata"

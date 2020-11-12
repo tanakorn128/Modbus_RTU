@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+}
+
+table,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#head {
+    background-color: rgba(29, 150, 178, 1);
+}
+
+#bodt {
+    background-color: rgba(94, 93, 82, .1);
+}
