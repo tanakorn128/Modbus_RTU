@@ -1,4 +1,4 @@
-var url = 'http://localhost:3010/getdata';
+var url = 'http://raspberrypi.local:3010/getdata';
 
 var oReq = new XMLHttpRequest();
 oReq.addEventListener("load", reqListener);

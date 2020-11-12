@@ -1,4 +1,4 @@
-var Data = require('mongoose').model('temp_rtc');
+var Data = require('mongoose').model('modbus');
 var addData = function(req, res, next) {
     var data = new Data(req.body);
     //console.log(req.body.humidity);
