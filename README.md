@@ -1,6 +1,6 @@
 # Modbus_RTU
 ![GitHub Logo](/img/1.png)
-###index.js
+#index.js
 ```javascript
 var mongoose = require('./config/mongoose');
 var express = require('./config/express');
@@ -55,6 +55,8 @@ module.exports = app;
 
 console.log('Server running at http://localhost:3010');
 ```
+# วนลูป อ่านค่าเซ้นเซอร์ทุกๆ 1 นาที
+
 ###modbus.js
 ```javascript
 var ModbusRTU=require('modbus-serial');
@@ -68,7 +70,7 @@ module.exports=client
 
 
 ```
-###mongoose.js
+#mongoose.js
 ```javascript
 var mongoose = require('mongoose');
 
@@ -79,3 +81,5 @@ module.exports = () => {
     return db;
 }
 ```
+
+#แก้ไขฐานข้อมูลให้เป็น modbus
