@@ -62,6 +62,10 @@ var client=new ModbusRTU();
 client.connectRTU("/dev/ttyUSB0",{buadRate: 9600});
 
 module.exports=client
+
+![Output](/img/1.png)
+
+
 ```
 ###mongoose.js
 ```javascript
