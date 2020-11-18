@@ -1,4 +1,5 @@
 # Modbus_RTU
+![GitHub Logo](/img/1.png)
 ###index.js
 ```javascript
 var mongoose = require('./config/mongoose');
